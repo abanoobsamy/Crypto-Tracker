@@ -1,0 +1,4 @@
+# تجاهل أي ملفات HTML من إحصائيات اللغات
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
