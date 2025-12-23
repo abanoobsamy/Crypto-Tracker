@@ -1,3 +1,9 @@
+![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Ktor](https://img.shields.io/badge/Ktor-000000?style=for-the-badge&logo=ktor&logoColor=white)
+![Koin](https://img.shields.io/badge/Koin-FFEB3B?style=for-the-badge&logo=kotlin&logoColor=black)
+
 # CryptoTracker 🚀 
 
 A modern Cryptocurrency tracker built with **Kotlin** and **Jetpack Compose**. This application provides real-time market insights and professional financial visualizations to help users track their favorite digital assets.
@@ -29,8 +35,8 @@ This project follows **Modern Android Development (MAD)** practices:
 
 ## 📸 Screenshots
 
-| Market Overview | Price Analysis | Asset Details |
-| :---: | :---: | :---: |
+| Market Overview DM | Price Analysis vDM | Market Overview LM | Price Analysis LM |
+| :---: | :---: | :---: | :---: |
 | ![Screen1](screenshots/Screenshot 2025-12-23 162321.png) | ![Screen2](screenshots/Screenshot%202025-12-23%20162336.png) | ![Screen3](screenshots/Screenshot%202025-12-23%20162352.png) | ![Screen4](screenshots/Screenshot%202025-12-23%20162409.png) |
 
 ---
