@@ -35,9 +35,9 @@ This project follows **Modern Android Development (MAD)** practices:
 
 ## 📸 Screenshots
 
-| Market Overview DM | Price Analysis vDM | Market Overview LM | Price Analysis LM |
+| Market Overview | Price Analysis | Adaptive Screen | Adaptive Screen | Adaptive Screen TB |
 | :---: | :---: | :---: | :---: |
-| ![Screen1](screenshots/Screenshot 2025-12-23 162321.png) | ![Screen2](screenshots/Screenshot%202025-12-23%20162336.png) | ![Screen3](screenshots/Screenshot%202025-12-23%20162352.png) | ![Screen4](screenshots/Screenshot%202025-12-23%20162409.png) |
+| ![Screen1](screenshots/screen1.png) | ![Screen2](screenshots/screen2.png) | ![Screen3](screenshots/screen3.png) | ![Screen4](screenshots/screen4.png) | ![Screen5](screenshots/screen5.png) |
 
 ---
 

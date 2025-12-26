@@ -55,7 +55,7 @@ class RemoteCoinDataSource(
                 urlString = constructBaseUrl("assets/$coinId/history")
             ) {
                 requiresAuth()
-                parameter("interval", "h1")
+                parameter("interval", "h6")
                 parameter("start", startMillis)
                 parameter("end", endMillis)
             }.body()

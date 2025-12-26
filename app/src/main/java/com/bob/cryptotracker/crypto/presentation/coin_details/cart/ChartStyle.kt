@@ -8,7 +8,7 @@ data class ChartStyle(
     val chartLineColor: Color,
     val unselectedColor: Color,
     val selectedColor: Color,
-    val helperLineThicknessPx: Float,
+    val helperLinesThicknessPx: Float,
     val axisLineThicknessPx: Float,
     val labelFontSize: TextUnit,
     val minYLabelSpacing: Dp,

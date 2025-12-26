@@ -87,4 +87,6 @@ dependencies {
 
     implementation(libs.bundles.ktor)
 
+    implementation(libs.androidx.adaptive.navigation)
+
 }

@@ -1,8 +1,9 @@
 package com.bob.cryptotracker.crypto.presentation.models
 
 import androidx.annotation.DrawableRes
-import com.bob.cryptotracker.crypto.domain.Coin
 import com.bob.cryptotracker.core.presentation.util.getDrawableIdForCoin
+import com.bob.cryptotracker.crypto.domain.Coin
+import com.bob.cryptotracker.crypto.presentation.coin_details.cart.DataPoint
 import java.text.NumberFormat
 import java.util.Locale
 
@@ -15,6 +16,7 @@ data class CoinUi(
     val priceUsd: DisplayableNumber,
     val changePercent24Hr: DisplayableNumber,
     @DrawableRes val iconRes: Int,
+    val coinPriceHistory: List<DataPoint> = emptyList(),
 )
 
 data class DisplayableNumber(

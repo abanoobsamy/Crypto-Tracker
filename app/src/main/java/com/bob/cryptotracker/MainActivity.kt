@@ -19,6 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewDynamicColors
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.bob.cryptotracker.core.navigation.AdaptiveCoinListDetailsPanel
 import com.bob.cryptotracker.core.presentation.util.ObserveAsEvents
 import com.bob.cryptotracker.core.presentation.util.toString
 import com.bob.cryptotracker.crypto.presentation.coin_details.CoinDetailsScreen
@@ -38,38 +39,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             CryptoTrackerTheme() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    val viewModel = koinViewModel<CoinListViewModel>()
-                    val state by viewModel.state.collectAsStateWithLifecycle()
-                    val context = LocalContext.current
-                    ObserveAsEvents(events = viewModel.events) { event ->
-                        when (event) {
-                            is CoinListEvent.Error -> {
-                                Toast.makeText(
-                                    context,
-                                    event.error.toString(context),
-                                    Toast.LENGTH_LONG
-                                ).show()
-                            }
-                        }
-                    }
-                    when {
-                        state.selectedCoin != null -> {
-                            CoinDetailsScreen(
-                                state = state,
-                                modifier = Modifier
-                                    .padding(innerPadding)
-                            )
-                        }
-
-                        else -> {
-                            CoinListScreen(
-                                state = state,
-                                modifier = Modifier
-                                    .padding(innerPadding),
-                                onAction = viewModel::onAction
-                            )
-                        }
-                    }
+                    AdaptiveCoinListDetailsPanel(
+                        modifier = Modifier
+                            .padding(innerPadding)
+                    )
                 }
             }
         }
